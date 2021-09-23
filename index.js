@@ -7,7 +7,7 @@ function muunna() {
     let syote = fahrenheitSyote.value;
     fahrenheitTuloste.textContent = syote;
 
-
+    celsiusTuloste.textContent = syote;
 }
 
 
