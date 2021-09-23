@@ -11,3 +11,4 @@ function muunna() {
 }
 
 
+muunnaButton.addEventListener('click', muunna);
