@@ -3,20 +3,15 @@ const fahrenheitTuloste = document.querySelector('#fahrenheit');
 const celsiusTuloste = document.querySelector('#celsius');
 const muunnaButton = document.querySelector('button');
 
-function fahrenheitCelsiukseksi(fahrenheit) {
-    let celsius = fahrenheit;
-    return celsius;
-
-
-}
-
 
 
 function muunna() {
     let syote = fahrenheitSyote.value;
     fahrenheitTuloste.textContent = syote;
 
-    celsiusTuloste.textContent = fahrenheitCelsiukseksi(syote);
+    let vastaus = 5 * (syote - 32) / 9
+
+    celsiusTuloste.textContent = vastaus.toFixed(0)
 }
 
 
