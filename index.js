@@ -5,6 +5,8 @@ const muunnaButton = document.querySelector('button');
 
 
 
+
+
 function muunna() {
     let syote = fahrenheitSyote.value;
     fahrenheitTuloste.textContent = syote;
@@ -16,3 +18,10 @@ function muunna() {
 
 
 muunnaButton.addEventListener('click', muunna);
+
+
+
+
+
+
+
